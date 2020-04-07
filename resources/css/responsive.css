@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1024px){
+    .row{
+        width: 90%;
+    }
+    .service-section h3{
+        font-size: 20px;
+    }
+    .member-section h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .service-section .row{
+        width: 100%;
+    }
+    .span_1_of_4 {
+    	width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0px;
+    }
+
+    .main-nav{
+        display: block;
+    }
+    .main-nav  li a:link,
+    .main-nav  li a:visited{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .hero-text-box h1{
+        font-size: 35px;
+    }
+   .hero-text-box a{
+                padding: 15px 30px;
+                box-shadow: none;
+    }
+
+    .img-section{
+        width: 100%;
+        text-align: center;
+    }
+    .img-section img{
+        float: none;
+    }
+    .down-section{
+        width: 100%;
+        float: none;
+        text-align: center;
+        width: 80%;
+        margin-top: 20px;;
+    }
+    .protfilo-filter button{
+        margin: 40px 5px;
+    }
+    .protfilo-section .btn{
+        box-shadow: 0px 2px  #000;
+        padding: 15px 30px;
+    }
+    .comment-section .col:nth-child(3),
+    .comment-section .col:nth-child(4){
+        margin-top: 50px;
+    }
+
+
+@media only screen and (max-width: 768px){
+    .main-nav{
+        display: block;
+    }
+    .main-nav  li a:link,
+    .main-nav  li a:visited{
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+    .service-section p{
+        width: 80%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .member-section p{
+        width: 80%;
+        margin: 20px auto;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .member-section h2{
+        font-size: 30px;
+    }
+    .skill-section .h{
+        font-size: 30px;
+    }
+    .h{
+        font-size: 30px;
+    }
+    .comment-section h2{
+        font-size: 30px;
+    }
+    .contact-section h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 660px){
+    .main-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .span_1_of_4 {
+    	width: 100%;
+    }
+
+    header{
+        min-height: 600px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .hero-text-box h1{
+        font-size: 25px;
+    }
+    .hero-text-box a{
+        padding: 10px 15px;
+    }
+    .hero-text-box .btn:link,
+    .btn:visited,
+    .btn{
+        font-size: 20px;
+    }
+    .mobile-menu span{
+        display: block;
+        margin-top: 10px;
+    }
+    .protfilo-filter button{
+        padding: 10px 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin: 10px 1px;
+
+    }
+    .protfilo-section h4{
+        text-align: center;
+        margin: 5px 0px 20px 0px;
+    }
+    .protfilo-section .row:nth-child(2){
+        width: 100%;
+    }
+    .down-section{
+        width: 90%;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin: 0;
+        margin-left: -5%;
+        text-align: center;
+    }
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section textarea{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+}
